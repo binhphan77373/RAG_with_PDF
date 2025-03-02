@@ -60,7 +60,7 @@ conda env create -f environment.yml
 
 3. Activate the environment:
 ```bash
-conda activate hitnet-query
+conda activate rag_pdf
 ```
 
 ### Final Setup
@@ -75,7 +75,7 @@ HUGGINGFACE_TOKEN=your_huggingface_token_here
 1. Place your PDF document in the root directory (default is "HITNet Hierarchical Iterative Tile Refinement Network for Real-time Stereo Matching.pdf")
 2. Run the script:
 ```bash
-python query_hitnet.py
+python backend.py
 ```
 3. The script will process the document and answer the default question: "What is HITNet?"
 
